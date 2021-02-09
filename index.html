@@ -8,7 +8,320 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@500;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="C:\Users\cryst\Desktop\Full stack\Team Y\style.css">
+   <style>
+   body{
+    font-family: "Ubuntu";
+
+
+}
+
+.headeer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /*background:#333;*/
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  margin-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.videobg{
+  position: absolute;
+  z-index: -1;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.container{
+  border: 3px solid white;
+
+
+}
+
+
+
+.hh1{
+  font-family: "Lora";
+  font-size: 7rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.hh2{
+  font-family: "Lora";
+  font-size: 7.5rem;
+  color:yellow;
+  font-weight: 900;
+}
+.spany{
+  color:#ffe227;
+}
+
+.hhh{
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color:black;
+  text-decoration: overline;
+
+}
+.home{
+align-items: center;
+margin-left: 7%;
+margin-right: 7%;
+margin-bottom: 80px;
+}
+
+.vision{
+  font-family: "lora";
+  text-align: left;
+  font-size: 25px;
+  color: black;
+  font-weight:800;
+  padding-top: 20px;
+  margin-right: 15%;
+  margin-left:15%;
+
+}
+
+.bbb{
+  padding-top: 30px;
+  margin-bottom:20px;
+}
+
+.hhh1{
+  padding-top: 50px;
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color:white;
+}
+.hhh2{
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color:Yellow;
+  text-decoration: overline;
+}
+.outer{
+  background-color: #000;
+  padding-bottom: 70px;
+}
+
+.wrapper{
+  max-width: 1080px;
+  margin: 50px auto;
+  padding: 50px 20px;
+  position: relative;
+}
+.wrapper .center-line{
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  background: #fff;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+}
+.wrapper .row{
+  display: flex;
+}
+.wrapper .row-1{
+  justify-content: flex-start;
+}
+.wrapper .row-2{
+  justify-content: flex-end;
+}
+.wrapper .row section{
+  background: #222426;
+  border-radius: 5px;
+  width: calc(50% - 40px);
+  padding: 20px;
+  position: relative;
+}
+
+.ppp{
+  color: #fff;
+}
+.wrapper .row section::before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  top: 28px;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+.row-1 section::before{
+  right: -7px;
+}
+.row-2 section::before{
+  left: -7px;
+}
+.row section .icon,
+.center-line .scroll-icon{
+  position: absolute;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #000;
+  font-size: 17px;
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+}
+.center-line .scroll-icon{
+  bottom: 0px;
+  left: 50%;
+  font-size: 25px;
+  transform: translateX(-50%);
+}
+.row-1 section .icon{
+  top: 15px;
+  right: -60px;
+}
+.row-2 section .icon{
+  top: 15px;
+  left: -60px;
+}
+.row section .details,
+.row section .bottom{
+  color:#ffe227;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row section .details .title{
+  font-size: 22px;
+  font-weight: 600;
+}
+.row section p{
+  margin: 10px 0 17px 0;
+}
+.row section .bottom a{
+  text-decoration: none;
+  background:yellow;
+  color: #000;
+  padding: 7px 15px;
+  border-radius: 5px;
+  /* font-size: 17px; */
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+.row section .bottom a:hover{
+  transform: scale(0.97);
+}
+
+.hhh4{
+  padding-top: 50px;
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #000;
+}
+
+.hhh9{
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color:#ffe227;
+  text-decoration: overline;
+}
+
+.hhh7{
+  align-items: center;
+  padding-top: 10px;
+  font-family: "Lora";
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+
+}
+
+.recuit{
+  align-items: center;
+
+
+}
+
+.unorder{
+ align-items: center;
+ margin-top: 30px;
+ margin-bottom: 70px;
+ width: 45%;
+ border: 1px solid black;
+ padding-left: 50px;
+
+}
+
+.info{
+  padding-top: 20px;
+  color: white;
+  font-family: "Montserrat";
+  font-weight:500;
+  text-align: left;
+  font-size: 30px;
+  margin-right:28%;
+  margin-left:32%;
+}
+
+.btnn{
+  text-align: center;
+}
+
+.mail{
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: #000;
+  font-weight: 700;
+  background-color: yellow;
+}
+
+
+@media(max-width: 790px){
+  .wrapper .center-line{
+    left: 40px;
+  }
+  .wrapper .row{
+    margin: 30px 0 3px 60px;
+  }
+  .wrapper .row section{
+    width: 100%;
+  }
+  .row-1 section::before{
+    left: -7px;
+  }
+  .row-1 section .icon{
+    left: -60px;
+  }
+}
+@media(max-width: 440px){
+  .wrapper .center-line,
+  .row section::before,
+  .row section .icon{
+    display: none;
+  }
+  .wrapper .row{
+    margin: 10px 0;
+  }
+}
+   </style>
+    
 
    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
